@@ -1,6 +1,6 @@
 package com.ibm.bts.service;
 
-import java.util.ArrayList;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 import com.ibm.bts.entity.Bug;
-import com.ibm.bug.repo.BugRepository;
+import com.ibm.bts.repo.BugRepository;
 
 
 @Service
